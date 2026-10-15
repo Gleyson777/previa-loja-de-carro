@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <title>
+   Igor Esteves Camionetes | Seminovos e usados em Santa Maria, RS
+  </title>
+  <meta content="Camionetes, carros e SUVs seminovos revisados, com garantia e &oacute;timas taxas de financiamento em Santa Maria, RS." name="description"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#estoque">
+   Ir para o estoque
+  </a>
+  <svg aria-hidden="true" height="0" style="position:absolute" width="0">
+   <defs>
+    <lineargradient id="sh" x1="0" x2="0" y1="0" y2="1">
+     <stop offset="0" stop-color="#fff" stop-opacity=".4">
+     </stop>
+     <stop offset=".55" stop-color="#fff" stop-opacity="0">
+     </stop>
+     <stop offset="1" stop-color="#000" stop-opacity=".4">
+     </stop>
+    </lineargradient>
+   </defs>
+  </svg>
+  <header id="hd">
+   <div class="w hb">
+    <a aria-label="Igor Esteves Camionetes, in&iacute;cio" class="brand" href="#topo">
+     IGOR ESTEVES
+     <small>
+      Camionetes
+     </small>
+    </a>
+    <button aria-controls="nv" aria-expanded="false" aria-label="Abrir menu" class="mt" id="mt">
+     ☰
+    </button>
+    <nav aria-label="Principal" id="nv">
+     <a href="#estoque">
+      Estoque
+     </a>
+     <a href="#diferenciais">
+      Diferenciais
+     </a>
+     <a href="#sobre">
+      A loja
+     </a>
+     <a href="#contato">
+      Contato
+     </a>
+     <a class="btn p wa" href="#">
+      WhatsApp
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main id="topo">
+   <div class="hero" id="hero">
+    <div class="stick">
+     <div aria-hidden="true" class="scene">
+      <div class="road">
+      </div>
+      <div class="glow">
+      </div>
+      <div class="car-wrap" id="hs">
+      </div>
+     </div>
+     <div class="w">
+      <div class="hc intro">
+       <h1>
+        Seu pr&oacute;ximo carro est&aacute; aqui.
+       </h1>
+       <p class="s">
+        Camionetes, SUVs, sed&atilde;s e hatches seminovos em Santa Maria, RS. Muitas op&ccedil;&otilde;es para comparar, todas revisadas, para voc&ecirc; comprar com confian&ccedil;a.
+       </p>
+       <div class="cta">
+        <a class="btn p" href="#estoque">
+         Explorar ve&iacute;culos
+        </a>
+        <a class="btn wa" href="#">
+         Fale com um consultor
+        </a>
+       </div>
+       <ul class="tr">
+        <li>
+         Revisados de proced&ecirc;ncia
+        </li>
+        <li>
+         Garantia
+        </li>
+        <li>
+         &Oacute;timas taxas de financiamento
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <section class="stock" id="estoque">
+    <div class="w">
+     <h2>
+      Estoque
+     </h2>
+     <p class="lead">
+      Busque pelo nome, filtre por marca, pre&ccedil;o, ano e categoria, e chame um consultor no WhatsApp pelo ve&iacute;culo que gostou.
+     </p>
+     <div class="tools">
+      <div>
+       <label class="sr" for="q">
+        Buscar por nome ou modelo
+       </label>
+       <input autocomplete="off" id="q" placeholder="Buscar por nome ou modelo, ex.: Hilux" type="search"/>
+      </div>
+      <select aria-label="Marca" id="fm">
+      </select>
+      <select aria-label="Faixa de pre&ccedil;o" id="fp">
+       <option value="">
+        Qualquer pre&ccedil;o
+       </option>
+       <option value="0-60000">
+        At&eacute; R$ 60 mil
+       </option>
+       <option value="60000-100000">
+        R$ 60 a 100 mil
+       </option>
+       <option value="100000-140000">
+        R$ 100 a 140 mil
+       </option>
+       <option value="140000-9e9">
+        Acima de R$ 140 mil
+       </option>
+      </select>
+      <select aria-label="Ano" id="fy">
+       <option value="">
+        Qualquer ano
+       </option>
+       <option value="2012">
+        2012 ou mais novo
+       </option>
+       <option value="2015">
+        2015 ou mais novo
+       </option>
+       <option value="2018">
+        2018 ou mais novo
+       </option>
+      </select>
+     </div>
+     <div aria-label="Categoria" class="chips" id="cats" role="group">
+     </div>
+     <div class="bar">
+      <span aria-live="polite" id="cnt">
+      </span>
+      <button class="lk" id="clr" type="button">
+       Limpar filtros
+      </button>
+     </div>
+     <div class="grid" id="grid">
+     </div>
+     <p class="note">
+      Ve&iacute;culos, fotos e valores desta pr&eacute;via s&atilde;o fict&iacute;cios e servem apenas para demonstrar o funcionamento do site.
+     </p>
+    </div>
+   </section>
+   <section class="sec alt" id="diferenciais">
+    <div class="w">
+     <h2>
+      Por que comprar aqui
+     </h2>
+     <p class="lead">
+      Atendimento direto e ve&iacute;culos escolhidos com crit&eacute;rio.
+     </p>
+     <div class="f4">
+      <div>
+       <h3>
+        Revisados de proced&ecirc;ncia
+       </h3>
+       <p>
+        Ve&iacute;culos conferidos antes de chegar ao estoque, para voc&ecirc; saber o que est&aacute; levando.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Garantia
+       </h3>
+       <p>
+        Compra com tranquilidade e suporte depois da entrega.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Financiamento facilitado
+       </h3>
+       <p>
+        &Oacute;timas taxas e apoio para simular a parcela que cabe no seu or&ccedil;amento.
+       </p>
+      </div>
+      <div>
+       <h3>
+        Variedade de op&ccedil;&otilde;es
+       </h3>
+       <p>
+        Camionetes, SUVs, sed&atilde;s e compactos, de diferentes faixas de pre&ccedil;o.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="sec" id="avaliacoes">
+    <div class="w">
+     <h2>
+      O que dizem os clientes
+     </h2>
+     <span class="badge">
+      Conte&uacute;do fict&iacute;cio de pr&eacute;via, substitua por avalia&ccedil;&otilde;es reais
+     </span>
+     <div class="rv">
+      <figure>
+       <div aria-label="5 de 5 estrelas" class="st">
+        &starf;&starf;&starf;&starf;&starf;
+       </div>
+       <blockquote>
+        Texto de exemplo: atendimento claro, carro exatamente como nas fotos e negocia&ccedil;&atilde;o sem press&atilde;o.
+       </blockquote>
+       <figcaption>
+        Cliente de exemplo A
+       </figcaption>
+      </figure>
+      <figure>
+       <div aria-label="5 de 5 estrelas" class="st">
+        &starf;&starf;&starf;&starf;&starf;
+       </div>
+       <blockquote>
+        Texto de exemplo: consegui simular o financiamento pelo WhatsApp e fechei no mesmo dia.
+       </blockquote>
+       <figcaption>
+        Cliente de exemplo B
+       </figcaption>
+      </figure>
+      <figure>
+       <div aria-label="5 de 5 estrelas" class="st">
+        &starf;&starf;&starf;&starf;&starf;
+       </div>
+       <blockquote>
+        Texto de exemplo: boa variedade de camionetes e entrega com tudo revisado.
+       </blockquote>
+       <figcaption>
+        Cliente de exemplo C
+       </figcaption>
+      </figure>
+     </div>
+    </div>
+   </section>
+   <section class="sec alt" id="sobre">
+    <div class="w two">
+     <div>
+      <h2>
+       Igor Esteves Camionetes
+      </h2>
+      <p>
+       Loja de carros e camionetes usadas e seminovas em Santa Maria, RS, com diversas op&ccedil;&otilde;es revisadas de proced&ecirc;ncia, garantia e &oacute;timas taxas de financiamento.
+      </p>
+      <p>
+       Acompanhe as entregas, as novidades e os ve&iacute;culos dispon&iacute;veis no Instagram da loja. Substitua este texto pela hist&oacute;ria e pelos valores definidos pelo propriet&aacute;rio.
+      </p>
+     </div>
+     <div class="hl">
+      <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+       Loja
+       <span>
+        Conhe&ccedil;a o espa&ccedil;o
+       </span>
+      </a>
+      <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+       &Aacute;lbum de entrega
+       <span>
+        Clientes satisfeitos
+       </span>
+      </a>
+      <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+       Faturadas 0km
+       <span>
+        Vendas de zero
+       </span>
+      </a>
+      <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+       Dispon&iacute;vel a venda
+       <span>
+        Veja no Instagram
+       </span>
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="sec" id="contato">
+    <div class="w two">
+     <div>
+      <h2>
+       Localiza&ccedil;&atilde;o e contato
+      </h2>
+      <p class="lead">
+       Santa Maria, RS. Os dados abaixo s&atilde;o provis&oacute;rios e devem ser substitu&iacute;dos.
+      </p>
+      <div class="ct">
+       <div>
+        <b>
+         Endere&ccedil;o
+        </b>
+        <span>
+         [Endere&ccedil;o da loja a definir]
+        </span>
+       </div>
+       <div>
+        <b>
+         WhatsApp
+        </b>
+        <span>
+         [N&uacute;mero a definir]
+        </span>
+       </div>
+       <div>
+        <b>
+         Hor&aacute;rio
+        </b>
+        <span>
+         [Hor&aacute;rio a definir]
+        </span>
+       </div>
+       <div>
+        <b>
+         Instagram
+        </b>
+        <span>
+         <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+          @igor.esteves.camionetes
+         </a>
+        </span>
+       </div>
+      </div>
+      <div class="cta" style="margin:22px 0 0">
+       <a class="btn p wa" href="#">
+        Chamar no WhatsApp
+       </a>
+      </div>
+     </div>
+     <div aria-label="Espa&ccedil;o reservado para o mapa" class="map" role="img">
+      Espa&ccedil;o reservado para o mapa da loja
+      <br/>
+      Santa Maria, RS
+     </div>
+    </div>
+   </section>
+   <section class="fin">
+    <div class="w">
+     <h2>
+      Encontre seu pr&oacute;ximo ve&iacute;culo.
+     </h2>
+     <p class="lead" style="margin-inline:auto">
+      Veja o estoque completo ou fale com um consultor agora.
+     </p>
+     <div class="cta">
+      <a class="btn p" href="#estoque">
+       Explorar ve&iacute;culos
+      </a>
+      <a class="btn wa" href="#">
+       Fale com um consultor
+      </a>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="w fb">
+    <div>
+     <b style="color:var(--tx)">
+      Igor Esteves Camionetes
+     </b>
+     <br/>
+     Santa Maria, RS
+     <br/>
+     Pr&eacute;via com conte&uacute;do provis&oacute;rio.
+    </div>
+    <ul>
+     <li>
+      <a href="#estoque">
+       Estoque
+      </a>
+     </li>
+     <li>
+      <a href="#sobre">
+       A loja
+      </a>
+     </li>
+     <li>
+      <a href="#contato">
+       Contato
+      </a>
+     </li>
+     <li>
+      <a href="https://www.instagram.com/igor.esteves.camionetes" rel="noopener" target="_blank">
+       Instagram
+      </a>
+     </li>
+     <li>
+      <a class="wa" href="#">
+       WhatsApp
+      </a>
+     </li>
+    </ul>
+   </div>
+  </footer>
+  <dialog aria-labelledby="dt" id="dlg">
+   <div class="dh">
+    <button class="lk" id="back" type="button">
+     &larr; Voltar ao estoque
+    </button>
+    <button aria-label="Fechar" class="x" id="x" type="button">
+     ✕
+    </button>
+   </div>
+   <div class="dg">
+    <div>
+     <div class="main" data-v="0" id="main">
+     </div>
+     <div class="th" id="th">
+     </div>
+    </div>
+    <div class="di" id="di">
+    </div>
+   </div>
+  </dialog>
+  <script defer="" src="js/script.js">
+  </script>
+ </body>
+</html>
+
